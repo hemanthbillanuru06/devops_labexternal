@@ -19,7 +19,7 @@ function submitForm(e) {
         return msg.innerText = "Error: Enter valid phone number";
 
     msg.style.color = "green";
-    msg.innerHTML = "<b>Registration Successful!</b>";
+    msg.innerHTML = "<b>Registration Successful!</b><br>Name:${n} thank you for registering!<br>";
 }
 
 function resetForm() {
